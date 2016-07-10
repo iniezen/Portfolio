@@ -412,6 +412,7 @@ hr{
 	position:relative;
 
 
+
 }
 
 .leftimagediv{
@@ -464,89 +465,171 @@ hr{
 	
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (min-width:641px){
 
 
-/*.sidebar{
-    padding-right: 300px;
+.mainlogo{
 
+	margin-left: 120px;
 
+}
 
+.topnav{
 
-}	
+	margin-right:130px;
 
-.footer{
-
-	display: static;
-
-}*/
-
-	
 }
 
 
+.pagecontent{
 
-@media screen and (max-width: 980px){
 
-/*.pagecontent{
-    width: 250px;
-    display: inline-block;
-    margin-left: 60px;
+    display: block;
+    overflow:hidden;
 
 
 }
 
 .sidebar{
-	margin-right: 300px;
-	}
+    padding-right: 300px;
+    display: block;
+    margin-left: 120px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 19px;
+    padding-right: 330px;
+    float:none;
 
-#profilepic{
-
-	width: 230px;
-	height: 160px;
-}	
-
-.topnav{
-
-	margin-right: 340px;
-}
-
-.mainlogo{
-
-	margin-left: 0px;
-}
-
-
-.leftimagediv{
-
-	float:none;
-
-}
-
-
-
-.rightimagediv{
-
-	float:none;
-
-}
-
-.picturecontainer{
-
-	text-align: center;
 }
 
 .footer{
 
+	display: block;
+	bottom:0px;
+	position:relative;
 
-	display: none;
+
+
 }
+
+}
+
+
+
+@media screen and (max-width: 980px) and (min-width: 769px){
+
+.pagecontent{
+   
+    display: inline-block;
+    margin-left: 120px;
+    margin-right: 20px;
+
+
+
+}
+
+.sidebar{
+	margin-right: 120px;
+	margin-top: 50px;
+	}
+
+#profilepic{
+
+	width: 97%;
+	
+}	
+
+.topnav{
+
+	margin-right: 125px;
+}
+
+.mainlogo{
+
+	margin-left: 30px;
+}
+
+
+.pagecontent{
+
+    width: 540px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 0px;
+    overflow: hidden;
+
+}
+
+
+
+.leftimagediv{
+
+	width:540px;
+	height:370px;
+	float:none;
+	display: block;
+
+
+}
+
+.leftportfolioimage{
+
+	width:540px;
+	height:370px;
+	float:none;
+	display: block;
+
+}
+
+.rightimagediv{
+
+	width:540px;
+	height:370px;
+	float:none;
+	display: block;
+
+
+}
+
+.rightportfolioimage{
+
+	width:540px;
+	height:370px;
+	float:none;
+	display: block;
+
+}
+
+.imagetitle{
+
+	line-height: 60px;
+    width: 540px;
+    bottom: 100px;
+
+}
+
+
+
+
 
 span{
 
 	display:block;
 }
-*/
+
+.footer{
+
+	display: block;
+	bottom:0px;
+	position:relative;
+
+}
+
 }
 
 
